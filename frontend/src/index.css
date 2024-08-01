@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fancyGlow {
+    0% {
+      text-shadow: 0 0 5px #fff700, 0 0 10px #fff700, 0 0 15px #fff700, 0 0 20px #ffd700, 0 0 25px #ffd700, 0 0 30px #ffd700, 0 0 35px #ffd700;
+      transform: scale(1);
+    }
+    50% {
+      text-shadow: 0 0 20px #fff700, 0 0 30px #fff700, 0 0 40px #ffd700, 0 0 50px #ffd700, 0 0 60px #ffd700, 0 0 70px #ffd700, 0 0 80px #ffd700;
+      transform: scale(1.1);
+    }
+    100% {
+      text-shadow: 0 0 5px #fff700, 0 0 10px #fff700, 0 0 15px #fff700, 0 0 20px #ffd700, 0 0 25px #ffd700, 0 0 30px #ffd700, 0 0 35px #ffd700;
+      transform: scale(1);
+    }
+  }
+  
+  .fancy-glow-animation {
+    animation: fancyGlow 1.5s infinite alternate;
+    color: #ffd700;
+  }
+  
+  /* Example CSS for the Bubbly Logo */
+.bubbly-logo {
+  width: 150px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: flex;
+  align-items: center;
+  color: #fff; /* Ensure text color is visible on dark backgrounds */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .bubbly-logo {
+    width: 120px; /* Smaller width on smaller screens */
+  }
+}
