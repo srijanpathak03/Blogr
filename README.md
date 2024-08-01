@@ -1,0 +1,2 @@
+# Blogr
+Serverless Blogging Platform
