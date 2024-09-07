@@ -2,7 +2,7 @@
 
 Welcome to **BLOGR**, a serverless blogging platform designed for scalability and high performance. Built using **Cloudflare Workers**, it ensures 99.99% uptime, secure authentication, and a seamless user experience with robust data management.
 
-![BLOGR](assets/images/Logo.png)
+![BLOGR](assets/images/LogoBlogr.png)
 
 ## 🚀 Features
 - **Serverless Architecture**: Developed using **Cloudflare Workers** to handle blog requests, ensuring scalability and minimal downtime.
