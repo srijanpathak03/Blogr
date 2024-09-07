@@ -22,17 +22,9 @@ Welcome to **BLOGR**, a serverless blogging platform designed for scalability an
 ![Blog Dashboard](assets/images/BlogHome.png)
 - A responsive and user-friendly interface for managing blog posts, with built-in analytics for tracking performance.
 
-### 2. Secure Authentication & Authorization
-![Authentication](assets/images/Auth.png)
-- Secure login and sign-up flow, ensuring data protection with JWT.
-
-### 3. Serverless Scalability
-![Serverless Scalability](assets/images/Serverless.png)
-- Deployed using Cloudflare Workers to handle thousands of blog requests with minimal latency.
-
-### 4. Robust Data Validation
-![Data Validation](assets/images/DataValidation.png)
-- Ensured the integrity of user input using **Zod** for validation across the platform.
+### 2. Publish Blog Page
+![Publish Blog Page](assets/images/BlogPublish.png)
+- An intuitive blog creation page where users can write, preview, and publish blog posts.
 
 ## ⚙️ Installation & Setup
 
